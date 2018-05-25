@@ -2,7 +2,7 @@
 
   while(have_posts()) {
     the_post(); ?>
-      <h2>hello, world</h2>
+      <h2><?php  ?></h2>
   <?php }
 
 ?>
