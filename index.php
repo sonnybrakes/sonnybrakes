@@ -4,8 +4,8 @@
 
   $count = 0;
 
-  while($count <= 9) {
-    echo "<li>$count</li>";
+  while($count < count($names)) {
+    echo "<li>Hi, my name is $names[$count]</li>";
     $count++;
   }
 
