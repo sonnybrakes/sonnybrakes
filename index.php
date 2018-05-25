@@ -1,7 +1,5 @@
 <?php
 
-  $myName = "Mitch";
+  $names = array('mitch', 'carole', 'pauline', 'julie'); 
 
  ?>
- 
-<p>Hi, my name is <?php echo $myName; ?>.</p>
