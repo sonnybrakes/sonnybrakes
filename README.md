@@ -1,3 +1,3 @@
-[You can find the Udemy course I am using to do this project at](https://www.udemy.com/become-a-wordpress-developer-php-javascript/)
+[Find the Udemy course I am following to do this project here](https://www.udemy.com/become-a-wordpress-developer-php-javascript/)
 
-[You can find and download a zip file of the instructor's static code by clicking his GitHub repository here](https://github.com/LearnWebCode/university-static)
+[Find and download the zip file, which contains the course related static code here](https://github.com/LearnWebCode/university-static)
