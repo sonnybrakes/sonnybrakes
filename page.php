@@ -30,6 +30,7 @@
       </div>
 
       <div class="generic-content">
+        <?php the_content(); ?>
       </div>
 
     </div>
