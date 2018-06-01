@@ -18,8 +18,8 @@
     <div class="container container--narrow page-section">
 
       <?php
-        if () {
-          THE BASIC STRUCTURE OF AN IF STATEMENT ;
+        if (wp_get_post_parent_ID(get_the_id())) {
+          echo "if, and only if, this page is a child of a parent page then this means that the if statement evaluates to TRUE and this statement will be printed to the screen";
         }
       ?>
 
