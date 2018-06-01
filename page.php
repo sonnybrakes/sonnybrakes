@@ -18,14 +18,16 @@
     <div class="container container--narrow page-section">
 
       <?php
-        if (wp_get_post_parent_ID(get_the_id())) {
-          echo "if, and only if, this page is a child of a parent page then this means that the if statement evaluates to TRUE and this statement will be printed to the screen";
-        }
+
+        if (wp_get_post_parent_ID(get_the_id())) { ?>
+
+          <div class="metabox metabox--position-up metabox--with-home-link">
+            <p><a class="metabox__blog-home-link" href="#"><i class="fa fa-home" aria-hidden="true"></i> Back to About Us</a> <span class="metabox__main"><?php the_title() ?></span></p>
+          </div>
+
+      <?php }
       ?>
 
-      <div class="metabox metabox--position-up metabox--with-home-link">
-        <p><a class="metabox__blog-home-link" href="#"><i class="fa fa-home" aria-hidden="true"></i> Back to About Us</a> <span class="metabox__main"><?php the_title() ?></span></p>
-      </div>
 
       <!-- <div class="page-links">
         <h2 class="page-links__title"><a href="#">About Us</a></h2>
